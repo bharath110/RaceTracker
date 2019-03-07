@@ -1,0 +1,286 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require main
+*= require mobile
+*= require_self
+*/
+#userMsg {
+	padding-left: 1100px;
+	color: rgb(195, 3, 3);
+}
+
+img {
+	width: 150px;
+	height: 140px;
+}
+
+#buttonLogout {
+	width: 9%;
+	margin-left: 820px;
+}
+
+.blue {
+	background-color: lightblue;
+}
+
+.buttonShow {
+	display: inline;
+}
+.panel-footer-R{
+	background-color: #48802c;
+}
+body{
+	background-color: #e3eff5;
+}
+#createRace {
+	margin: auto;
+	padding: auto;
+	width: 95%;
+}
+
+#raceListDivId {
+	margin: auto;
+	padding: auto;
+	width: 95%;
+}
+
+input[type=text], select {
+	width: 44%;
+	height: 30px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=date]{
+	width: 37%;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+tr:HOVER {
+	background-color: lightblue;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+
+input[type=submit] {
+	width: 44%;
+	color: #ff0000;
+	padding: 14px 25p;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+div {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+#createRace {
+	display: none;
+}
+
+li {
+	padding: 6px;
+}
+
+table {
+	padding-left: 25px;
+	width: 60%
+}
+
+table td {
+	padding: 20px;
+	padding-top: 0;
+}
+
+#tId {
+	
+}
+
+/* The Modal (background) */
+.modal-R {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	/* Sit on top */
+	/* /* padding-top: 100px; Location of the box
+	padding-left: 100px;
+	top: 40px;
+	left: 68px;
+	width: 950px; Full width
+	height:6s; Full height
+	overflow: auto; Enable scroll if needed
+	background-color: rgba(0, 0, 0, 0.4); Black w/ opacity */ */
+	    position: fixed;
+    padding-top: 10px;
+    padding-left: 10px;
+    top: 40px;
+    left: 45px;
+    width: 93%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content-R {
+	background-color: #fefefe;
+	margin: auto;
+	
+	border: 1px solid #888;
+	width: 80%;
+	height: auto;
+	top: 40px;
+	left: 50px;
+	border-radius: 0.8;
+	border-color: lightgreen;
+	overflow: auto;
+}
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#afterRaceCreate {
+	display: none;
+}
+
+input[type=text], select {
+	width: 30%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: center;
+	padding: 8px;
+}
+
+
+tr:HOVER {
+	background-color: lightblue;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+
+input[type=submit] {
+	width: 100%;
+	color: #151313;
+	padding: 14px 25p;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #008040;
+}
+
+div {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+#createRace {
+	display: none;
+}
+
+li {
+	padding: 6px;
+}
+
+table {
+	padding-left: 25px;
+	width: 60%
+}
+
+table td {
+	padding: 20px;
+	padding-top: 0;
+}
+
+#tId {
+	
+}
+
+div {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.divrunnerCreate {
+	display: none;
+}
+
+.hidediv {
+	display: none;
+}
+
+.afterRunnerRegister {
+	display: none;
+}
+
+table {
+	border-collapse: collapse;
+	width: 60%;
+	text-align: center;
+}
+
+td {
+	padding: 10px;
+}
+
+
+
+tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+
+.error {
+	font-color: red;
+}

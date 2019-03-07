@@ -1,0 +1,10 @@
+
+.hidediv {
+	display: none;
+}
+.error{
+	font-color:red;
+}
+.activeButton{
+	background-color: darkgray;
+}

@@ -1,0 +1,1 @@
+Selected ${raceDeleted?.raceCode} is Deleted
